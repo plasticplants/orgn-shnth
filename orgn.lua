@@ -58,6 +58,7 @@ demo = include 'orgn/lib/demo'                --egg
 Orgn = include 'orgn/lib/ui'                  --nest v2 UI components (norns screen / grid)
 map = include 'orgn/lib/params'               --create script params
 m = include 'orgn/lib/midi'                   --midi keyboard input
+sh = include 'orgn/lip/shnth'                 --shnth input
 
 engine.name = "Orgn"
 
